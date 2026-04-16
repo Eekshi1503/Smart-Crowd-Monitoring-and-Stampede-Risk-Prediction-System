@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['persons']
+
+roboflow:
+  workspace: ocr-bzmrn
+  project: crowd-monitoring-felvs
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/ocr-bzmrn/crowd-monitoring-felvs/2
